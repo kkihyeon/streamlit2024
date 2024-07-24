@@ -1,5 +1,4 @@
 import streamlit as st
 
-st.write('Hello Streamlit!')
-st.write("권기현")
-st.markdown("Hello **볼드체**")
+st.header('주사위 게임', divider='rainbow')
+st.button('주사위던지기', type='primary')
